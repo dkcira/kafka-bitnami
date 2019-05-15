@@ -1,10 +1,10 @@
 # kafka-bitnami
 kafka, the bitnami dockerized version
 
-https://hub.docker.com/r/bitnami/kafka
-https://hub.docker.com/r/bitnami/zookeeper
-https://github.com/bitnami/bitnami-docker-kafka
-https://github.com/bitnami/bitnami-docker-zookeeper
+- https://hub.docker.com/r/bitnami/kafka
+- https://hub.docker.com/r/bitnami/zookeeper
+- https://github.com/bitnami/bitnami-docker-kafka
+- https://github.com/bitnami/bitnami-docker-zookeeper
 
 Notes:
 
