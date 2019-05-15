@@ -33,3 +33,6 @@ Topic:mytopic	PartitionCount:3	ReplicationFactor:3	Configs:
 - Topic: mytopic	Partition: 2	Leader: 1002	Replicas: 1002,1001,1003	Isr: 1002,1001,1003
 
 
+
+# python kafka client
+https://pypi.org/project/kafka-python/
