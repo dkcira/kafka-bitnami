@@ -28,8 +28,8 @@ Created topic mytopic.
 - describe a topic
 I have no name!@8d721303d76c:/$ /opt/bitnami/kafka/bin/kafka-topics.sh --describe --zookeeper zookeeper:2181 --topic mytopic
 Topic:mytopic	PartitionCount:3	ReplicationFactor:3	Configs:
-	Topic: mytopic	Partition: 0	Leader: 1003	Replicas: 1003,1002,1001	Isr: 1003,1002,1001
-	Topic: mytopic	Partition: 1	Leader: 1001	Replicas: 1001,1003,1002	Isr: 1001,1003,1002
-	Topic: mytopic	Partition: 2	Leader: 1002	Replicas: 1002,1001,1003	Isr: 1002,1001,1003
+- Topic: mytopic	Partition: 0	Leader: 1003	Replicas: 1003,1002,1001	Isr: 1003,1002,1001
+- Topic: mytopic	Partition: 1	Leader: 1001	Replicas: 1001,1003,1002	Isr: 1001,1003,1002
+- Topic: mytopic	Partition: 2	Leader: 1002	Replicas: 1002,1001,1003	Isr: 1002,1001,1003
 
 
