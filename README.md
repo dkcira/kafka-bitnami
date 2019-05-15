@@ -6,26 +6,26 @@ kafka, the bitnami dockerized version
 - https://github.com/bitnami/bitnami-docker-kafka
 - https://github.com/bitnami/bitnami-docker-zookeeper
 
-Notes:
+# Notes:
 
-simple/
+# simple/
 
 - when using an external volume for persistifying kafka, one needs to take care of the ownership and protections of the folder that is bound inside the docker
 
 
-cluster/
+# cluster/
 
-# start cluster
+- start cluster
 docker-compose up -d
 
-# get inside one of the kafka brokers
+- get inside one of the kafka brokers
 docker-compose exec kafka1 bash
 
-# create a tpoic with 3 partitions
+- create a tpoic with 3 partitions
 I have no name!@8d721303d76c:/$ /opt/bitnami/kafka/bin/kafka-topics.sh --create --zookeeper zookeeper:2181 --topic mytopic --partitions 3 --replication-factor 3
 Created topic mytopic.
 
-# describe a topic
+- describe a topic
 I have no name!@8d721303d76c:/$ /opt/bitnami/kafka/bin/kafka-topics.sh --describe --zookeeper zookeeper:2181 --topic mytopic
 Topic:mytopic	PartitionCount:3	ReplicationFactor:3	Configs:
 	Topic: mytopic	Partition: 0	Leader: 1003	Replicas: 1003,1002,1001	Isr: 1003,1002,1001
